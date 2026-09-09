@@ -1,4 +1,5 @@
 ## In this rep, there are 50+ plus projects of deep learning with complete readme, setup ,libraries and markdown
+## Project1:
 # Perceptron Trick
 
 Trains a perceptron (line that splits 2 classes) by fixing mistakes, one point at a time.
@@ -20,7 +21,7 @@ Random line → pick random point → wrong? nudge weights → repeat → line s
 ## Limitation
 Only works if data is linearly separable. If not, transform features first (e.g. `x1² + x2²`).
 
-## project2 Perceptron problem 
+## Project2: 
 # Perceptron Problem
 
 Implementation of a Perceptron classifier from scratch, along with a look at its key limitation — it only works when data is **linearly separable**.
