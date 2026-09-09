@@ -1,3 +1,4 @@
+## In this rep, there are 50+ plus projects of deep learning with complete readme, setup ,libraries and markdown
 # Perceptron Trick
 
 Trains a perceptron (line that splits 2 classes) by fixing mistakes, one point at a time.
