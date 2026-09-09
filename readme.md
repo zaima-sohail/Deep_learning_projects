@@ -40,11 +40,44 @@ w = w + lr * (y - ŷ) * x
 |---|---|---|
 | Doesn't converge | Data not linearly separable | Transform features (e.g. x1² + x2²) |
 
+
 ## Tech Used
 - Python
 - NumPy
 - Matplotlib (for visualizing decision boundary)
 
-
 ## Key Takeaway
 A basic perceptron can only draw a straight line to separate classes. When data isn't linearly separable, transforming the features (or using a multi-layer network) is required.
+## project3:
+# Customer Churn Prediction
+
+A machine learning project that predicts whether a customer is likely to churn using a neural network built with TensorFlow/Keras.
+
+## Technologies
+
+* Python
+* Pandas
+* NumPy
+* Scikit-learn
+* TensorFlow / Keras
+* Matplotlib
+
+## Dataset
+
+`Churn_Modelling.csv`
+
+## Model
+
+The neural network uses:
+
+* ReLU activation in hidden layers
+* Sigmoid activation in the output layer
+* Binary cross-entropy loss
+* Adam optimizer
+
+## Result
+
+The model is trained to classify customers into:
+
+* `0` — No Churn
+* `1` — Churn
