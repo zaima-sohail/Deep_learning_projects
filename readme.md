@@ -82,3 +82,34 @@ The model is trained to classify customers into:
 
 * `0` — No Churn
 * `1` — Churn
+## Project4:
+# Handwritten Digit Recognition using MNIST
+
+This project uses **TensorFlow/Keras** to build a neural network that recognizes handwritten digits from the **MNIST dataset**.
+
+### Technologies
+
+* Python
+* TensorFlow / Keras
+* MNIST Dataset
+
+### Model
+
+The model uses:
+
+* `Flatten` layer to convert 28×28 images into 784 values
+* `Dense` layers for classification
+* `ReLU` activation
+* `Softmax` output layer
+* `Adam` optimizer
+* `Sparse Categorical Crossentropy` loss
+
+### Result
+
+The model is trained to classify handwritten digits from **0 to 9**.
+
+## How to Run
+
+```bash
+pip install tensorflow
+
