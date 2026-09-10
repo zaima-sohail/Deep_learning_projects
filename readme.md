@@ -111,5 +111,35 @@ The model is trained to classify handwritten digits from **0 to 9**.
 ## How to Run
 
 ```bash
-pip install tensorflow
+pip install tensorflow pandas numpy scikit-learn
+```
+## Project5:
+# Graduate Prediction using ANN
+
+This project uses an **Artificial Neural Network (ANN)** to predict graduate outcomes based on input features.
+
+### Technologies
+
+* Python
+* TensorFlow / Keras
+* Artificial Neural Network
+
+### Model
+
+* Dense layers with **ReLU** activation
+* **Adam** optimizer
+* Classification output layer
+* Accuracy: **~73%**
+
+### Result
+
+The ANN achieved approximately **73% accuracy** on the test data.
+
+## How to Run
+
+```bash
+pip install tensorflow pandas numpy scikit-learn
+```
+
+Run the notebook or Python file to train and evaluate the model.
 
