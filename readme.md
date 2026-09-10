@@ -142,4 +142,47 @@ pip install tensorflow pandas numpy scikit-learn
 ```
 
 Run the notebook or Python file to train and evaluate the model.
+## project 6:
+# ❤️ Heart Disease Prediction Using ANN
+
+## 📌 Overview
+
+A machine learning project that uses an **Artificial Neural Network (ANN)** to predict heart disease from 13 clinical features.
+
+## 📊 Dataset
+
+* 303 patient records
+* 13 input features
+* 1 target column
+* Missing values handled using median imputation
+
+## 🧠 ANN Model
+
+```text
+Input (13)
+   ↓
+Dense (32, ReLU)
+   ↓
+Dense (16, ReLU)
+   ↓
+Output (1, Sigmoid)
+```
+
+**Loss:** Binary Crossentropy
+**Optimizer:** Adam
+
+## 📈 Result
+
+The model achieved approximately **85% test accuracy**.
+
+## 🛠️ Technologies
+
+* Python
+* Pandas
+* NumPy
+* Scikit-learn
+* TensorFlow/Keras
+* Matplotlib
+## Project7:
+ # Credit Card Fraud Detection Using Deep Artificial Neural Network
 
