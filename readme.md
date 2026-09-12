@@ -184,5 +184,23 @@ The model achieved approximately **85% test accuracy**.
 * TensorFlow/Keras
 * Matplotlib
 ## Project7:
- # Credit Card Fraud Detection Using Deep Artificial Neural Network
+# Backpropagation with Keras
+Keras handles backpropagation automatically — you don't implement the math yourself. This README explains what happens under the hood when you call `model.fit()`.
+
+## How It Works
+
+1. **Forward Pass**
+   Input data flows through the layers, producing a prediction (`y_pred`).
+
+2. **Loss Calculation**
+   The loss function (e.g. `mean_squared_error`) compares `y_pred` to the true value (`y_true`).
+
+3. **Backward Pass (Backpropagation)**
+   Keras uses automatic differentiation (via TensorFlow's `GradientTape`) to compute the gradient of the loss with respect to every weight in the network, layer by layer, from output back to input.
+
+4. **Weight Update**
+   The optimizer (e.g. `Adam`) uses these gradients to update each weight, aiming to reduce the loss.
+
+5. **Repeat**
+   This cycle repeats for every batch, across all epochs.
 
