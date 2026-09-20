@@ -186,6 +186,95 @@ The model achieved approximately **85% test accuracy**.
 ## Project7:
 # Backpropagation with Keras
 Keras handles backpropagation automatically — you don't implement the math yourself. This README explains what happens under the hood when you call `model.fit()`.
+## project7:
+# Cats vs Dogs Image Classifier 🐱🐶
+
+## Overview
+
+This project is a **Cats vs Dogs image classification system** built using **Convolutional Neural Networks (CNN)** with TensorFlow and Keras. The model learns visual features from cat and dog images and predicts whether a new image belongs to the **Cat** or **Dog** class.
+
+## Technologies Used
+
+* Python
+* TensorFlow / Keras
+* Convolutional Neural Network (CNN)
+* Google Colab
+* NumPy
+* Matplotlib
+* Pillow (PIL)
+
+## Dataset
+
+The project uses a Cats vs Dogs image dataset containing images from two classes:
+
+* **Cat**
+* **Dog**
+
+The images were cleaned and converted to RGB format before training to avoid invalid image-channel errors.
+
+## Preprocessing
+
+The following preprocessing steps were performed:
+
+* Removed invalid/corrupted images
+* Converted images to RGB
+* Resized images to **128 × 128**
+* Normalized pixel values between 0 and 1
+* Split the dataset into training and validation sets
+
+## CNN Architecture
+
+The model consists of:
+
+* 3 Convolutional layers
+* Max Pooling layers
+* Flatten layer
+* Dense layer
+* Dropout layer
+* Sigmoid output layer
+
+The final sigmoid layer produces a binary prediction for **Cat** or **Dog**.
+
+## Training
+
+The model was compiled using:
+
+* **Optimizer:** Adam
+* **Loss Function:** Binary Crossentropy
+* **Metric:** Accuracy
+
+The model was trained using the training dataset and evaluated on the validation dataset.
+
+## Prediction
+
+After training, a new image can be uploaded in Google Colab. The trained CNN processes the image and predicts whether it is a:
+
+**🐱 Cat** or **🐶 Dog**
+
+## Project Structure
+
+```text
+Cats-Dogs-Classifier/
+│
+├── README.md
+├── cats_dogs_cnn.keras
+└── notebook.ipynb
+```
+
+## How to Run
+
+1. Open the notebook in Google Colab.
+2. Install/import the required libraries.
+3. Load and preprocess the dataset.
+4. Create and compile the CNN model.
+5. Train the model.
+6. Evaluate the model using validation data.
+7. Upload a new image for prediction.
+
+## Conclusion
+
+This project demonstrates how CNNs can be used for basic image classification. The model learns visual patterns from cats and dogs and uses those learned features to classify previously unseen images.
+
 
 ## How It Works
 
