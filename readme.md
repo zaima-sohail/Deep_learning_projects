@@ -292,4 +292,41 @@ This project demonstrates how CNNs can be used for basic image classification. T
 
 5. **Repeat**
    This cycle repeats for every batch, across all epochs.
+## project9:
+# 🖼️ Image Classification using CNN
+
+A **Convolutional Neural Network (CNN)** project for classifying images from the **CIFAR-10 dataset** using TensorFlow/Keras.
+
+## 📊 Dataset
+
+CIFAR-10 contains **60,000 32×32 color images** across 10 classes:
+
+`Airplane` · `Automobile` · `Bird` · `Cat` · `Deer` · `Dog` · `Frog` · `Horse` · `Ship` · `Truck`
+
+## 🛠️ Tech Stack
+
+* Python
+* TensorFlow / Keras
+* NumPy
+* Matplotlib
+
+## 🚀 Workflow
+
+* Load and preprocess CIFAR-10 data
+* Build a CNN model
+* Train the model
+* Evaluate model performance
+* Visualize predictions and results
+
+## 📁 Notebook
+
+`Image classification using CNN (CIFAR10 dataset).ipynb`
+
+## ▶️ Run
+
+Open the notebook in **Jupyter Notebook** or **Google Colab** and run the cells sequentially.
+
+## 📌 Goal
+
+To demonstrate how CNNs can be used for **image classification** using a real-world benchmark dataset.
 
