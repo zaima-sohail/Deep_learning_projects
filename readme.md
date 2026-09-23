@@ -330,3 +330,35 @@ Open the notebook in **Jupyter Notebook** or **Google Colab** and run the cells 
 
 To demonstrate how CNNs can be used for **image classification** using a real-world benchmark dataset.
 
+## project10:
+# Toxic Comments Classification
+
+## 📌 Overview
+
+This project classifies comments as **Toxic** or **Non-Toxic** using **Natural Language Processing (NLP)** and a **Convolutional Neural Network (CNN)**.
+
+## 🛠️ Technologies
+
+* Python
+* NLP
+* TensorFlow/Keras
+* CNN
+* Pandas
+* NumPy
+* Scikit-learn
+
+## 🔄 Process
+
+1. Clean and preprocess comments.
+2. Tokenize and pad text sequences.
+3. Convert text into embeddings.
+4. Train a CNN classification model.
+5. Evaluate the model using accuracy, precision, recall, and F1-score.
+
+## 🧠 Model
+
+```text
+Input Text → Embedding → Conv1D → Pooling → Dense → Output
+```
+
+
